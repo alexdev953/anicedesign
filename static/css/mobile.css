@@ -1,0 +1,8 @@
+.nav-bar li {
+    display: none;
+}
+
+
+.nav-bar li:last-child {
+    display: block !important;
+}
