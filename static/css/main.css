@@ -24,6 +24,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: white;
 }
 
 .banner-img {
@@ -57,11 +58,17 @@ footer {
 }
 
 .nav-bar li {
-    color: white;
     padding: 13px;
     cursor: pointer;
     margin: 3px;
     font-weight: bold;
+}
+.nav-bar li {
+    mix-blend-mode: difference;
+    color: black;
+    filter: invert(100%);
+    /* mix-blend-mode: darken; */
+    /* color: green; */
 }
 
 .nav-bar li:last-child {
