@@ -8,10 +8,6 @@
 }
 
 .project-galery .projects img{
-    width: 90vw;
-}
-
-.project-galery .projects {
-    flex-direction: column;
+    width: 100%;
 }
 
