@@ -11,3 +11,7 @@
     width: 90vw;
 }
 
+.project-galery .projects {
+    flex-direction: column;
+}
+
