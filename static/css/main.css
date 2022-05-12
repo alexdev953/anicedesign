@@ -17,8 +17,8 @@ footer {
 }
 
 .header-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.7)), url(..//img/banner2.jpg);
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255,255,255,.5)), url(..//img/banner2.jpg); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.7)), url(..//img/banner2.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(255, 255, 255)), url(..//img/banner2.jpg);
     min-height: 100vh;
     background-attachment: fixed;
     background-position: top;
@@ -109,16 +109,16 @@ footer {
     justify-content: flex-end;
 }
 
-.project-galery > *  {
-    background-image: url("../img/gallery.jpeg");
-    width: 30vw;
-    height: 30vh;
+.project-galery {
+    align-items: center;
 }
 
-.project-galery {
-    display: flex;
+.projects img {
+    width: 30vw;
+}
+
+.projects {
     flex-wrap: wrap;
-    flex-direction: row;
     gap: 10px;
     justify-content: center;
 }
@@ -126,4 +126,9 @@ footer {
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
