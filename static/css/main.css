@@ -15,6 +15,13 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 * {
     font-family: Montserrat;
@@ -99,7 +106,7 @@ footer {
 
 .nav-bar li:hover {
     background-color: #d9252e4e;
-    border-radius: 15%;
+    border-radius: 5px;
 }
 
 .contact-us .items> *:hover {
@@ -112,7 +119,7 @@ footer {
 
 .contact-us .items > *   {
     border: 2px solid black;
-    border-radius: 4%;
+    border-radius: 5px;
     padding: 16px;
     text-align: center;
     font-weight: bold;
@@ -148,6 +155,11 @@ footer {
 
 }
 
+.projects > * {
+    gap: 10px;
+    align-items: center;
+}
+
 .projects {
     flex-wrap: wrap;
     gap: 10px;
@@ -166,6 +178,7 @@ footer {
 
 .about-det {
     width: 90vw;
+    text-align: justify;
 }
 
 .about {
