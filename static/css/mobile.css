@@ -3,14 +3,15 @@
 }
 
 .header-banner {
-    background-attachment:scroll
+    background-attachment:scroll !important;
 }
 
 .nav-bar li:last-child {
     display: block !important;
+    font-size: 32px;
 }
 
 .project-galery .projects img{
-    width: 100%;
+    width: 90vw;
 }
 

@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+
+* {
+    font-family: Montserrat;
+}
+
 html {
     color: black;
 }
@@ -19,7 +41,7 @@ footer {
 .header-banner {
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.7)), url(..//img/banner2.jpg); */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(255, 255, 255)), url(..//img/banner2.jpg);
-    min-height: 100vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -43,7 +65,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: solid 2px black;
+    
     min-width: 200px;
     width: 19vw;
 }
@@ -122,6 +144,8 @@ footer {
 
 .projects img {
     width: 30vw;
+    border-radius: 5px;
+
 }
 
 .projects {
@@ -138,4 +162,12 @@ footer {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.about-det {
+    width: 90vw;
+}
+
+.about {
+    align-items: center;
 }
