@@ -2,9 +2,6 @@
     display: none;
 }
 
-.header-banner {
-    background-attachment:scroll !important;
-}
 
 .nav-bar li:last-child {
     display: block !important;

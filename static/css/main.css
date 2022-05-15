@@ -157,7 +157,7 @@ footer {
 
 .projects > * {
     gap: 10px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .projects {
@@ -184,3 +184,9 @@ footer {
 .about {
     align-items: center;
 }
+
+@media only screen and (max-width: 1280px) {
+    .header-banner {
+      background-attachment: scroll;
+    }
+  }
