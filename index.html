@@ -7,6 +7,7 @@
     <title>Anice Design</title>
     <link rel="stylesheet" href="static/css/mobile.css" media="screen and (max-width: 600px)">
     <link rel="stylesheet" href="static/css/main.css">
+    <script src="static/js/main.js"></script>
 </head>
 <body>
     <header>
@@ -87,5 +88,17 @@
     </div>
     </div>
 </footer>
+<script>
+    const headerBanner = document.querySelector('.header-banner').offsetHeight;
+
+    document.onscroll = function scrolling () {
+        if (document.documentElement.scrollTop > headerBanner) {
+            document.querySelector('.nav-bar').classList.add('onscroll');
+        }
+        else if (document.documentElement.scrollTop < headerBanner){
+            document.querySelector('.nav-bar').classList.remove('onscroll');
+        }
+    }
+</script>
 </body>
 </html>
