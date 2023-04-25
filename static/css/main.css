@@ -86,6 +86,11 @@ footer {
     top: 0;
     z-index: 1;
     transition: background 500ms ease-in;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-bar ul {
