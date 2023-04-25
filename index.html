@@ -12,14 +12,14 @@
 <body>
     <header>
         <div class="header-banner">
-        <div class="nav-bar">
-            <ul>
-                <li>Головна</li>
-                <li>Проєкти</li>
-                <li>Про нас</li>
-                <li>&equiv;</li>
-            </ul>
-        </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>Головна</li>
+                    <li>Проєкти</li>
+                    <li>Про нас</li>
+                    <li>&equiv;</li>
+                </ul>
+            </div>
         <img class="banner-logo" src="static/img/logo.jpg" alt="logo">
     </div>
 </header>
@@ -84,15 +84,14 @@
                 <div>
                     <a href="tel:0666224313">Анастасія</a>
                 </div>
+            </div>
         </div>
-    </div>
     </div>
 </footer>
 <script>
     const headerBanner = document.querySelector('.header-banner').offsetHeight;
-
     document.onscroll = function scrolling () {
-        if (document.documentElement.scrollTop > headerBanner) {
+        if (document.documentElement.scrollTop > 10) {
             document.querySelector('.nav-bar').classList.add('onscroll');
         }
         else if (document.documentElement.scrollTop < headerBanner){
